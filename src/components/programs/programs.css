@@ -1,0 +1,79 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.programs-header{
+    display: flex;
+    gap: 5rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+    justify-content: center;
+    font-style: italic;
+}
+
+/* Testing Tengah */
+/* .program-tengah{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.program-tengah>span{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+} */
+
+.program-categories{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.category>:nth-child(1){
+    width: 2rem;
+    height: 2rem; fill: white;
+}
+
+.category>:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.category>:nth-child(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.join-now{
+    display: flex;
+    align-items: center;gap: 2rem;
+}
+
+.join-now>img{
+    width: 1rem;
+}
+
+.category:hover{
+    background-image: var(--planCard);
+    /* background-color: var(--orange); */
+    cursor: pointer;
+}
